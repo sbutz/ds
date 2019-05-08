@@ -3,6 +3,7 @@
 %macro SHIFT_LEFT_ONE 1
     MOV EAX, %1
     SHL EAX, 1
+    JO ende
     MOV %1, EAX
 %endmacro
 
