@@ -1,5 +1,7 @@
+# Division
 DIV EBX = EDX : EAX : EBX
 Ergebnis in EAX, Rest in EDX
 
+# Multiplikation
 MUL EBX = EAX * EBX
 Ergebnis in EDX:EAX
